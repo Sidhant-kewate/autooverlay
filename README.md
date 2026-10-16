@@ -21,3 +21,10 @@ Output: `AutoTapOverlay.apk` in this folder.
 - Windows:  `powershell -ExecutionPolicy Bypass -File get-apk.ps1 https://github.com/YOU/REPO`
 - Linux / macOS / WSL:  `./get-apk.sh https://github.com/YOU/REPO`
 Use a NEW EMPTY repo. Install GitHub CLI (`gh auth login`) for a fully automatic download.
+
+## Overlay buttons
+- Main button: tap = ON/OFF. While ON it shows the live match score (0 = perfect). "TAP n" = it just tapped.
+  Other labels: "no frame" (screen capture not delivering), "BLACK" (app blocks capture), "NO A11Y" (accessibility service off),
+  "TAP FAIL" (system rejected the tap), "bad img"/"NO IMG" (button image missing or too small).
+- SCR button: when ON and the button isn't found twice in a row, it swipes up to scroll and looks again.
+- When asked what to share on screen choose "Entire screen" (not "A single app").
