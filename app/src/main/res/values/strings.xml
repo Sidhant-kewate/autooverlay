@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoTap Overlay</string>
+    <string name="a11y_desc">Lets AutoTap tap the button it recognizes on screen.</string>
+</resources>
